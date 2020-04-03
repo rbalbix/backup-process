@@ -1,0 +1,14 @@
+{
+  "name": "backup-process",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "bin": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
